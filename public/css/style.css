@@ -1,0 +1,205 @@
+* {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #121212;
+  background-color: #fbfbfb;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 2rem;
+  margin-bottom: 1em;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#navbar ul li {
+  margin-left: 1em;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #121212;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid #ccc;
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-checkbox {
+  flex-direction: row;
+}
+
+.form-checkbox input {
+  margin-right: 10px;
+}
+
+.form-control input {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* USERS */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.container .item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1 1 29%;
+  max-width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item h2,
+.item p {
+  margin-bottom: 0.8rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+
+.actions .details-btn {
+  border-color: #004085;
+  color: #004085;
+}
+
+.actions .delete-btn {
+  border-color: #721c24;
+  color: #721c24;
+}
+
+.back-btn {
+  margin-left: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-details {
+  width: 100%;
+  text-align: center;
+}
+
+.user-details h1 {
+  margin-bottom: 5px;
+}
+
+.user-details p {
+  font-size: 20px;
+}
+
+/* ADDRESS */
+.address-container {
+  width: 100%;
+  margin: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 200px;
+  border-top: 1px solid #ccc;
+}
+
+.address-container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.address-form {
+  width: 100%;
+}
+
+.address-form .form-control {
+  width: min-content;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.address-form .form-control input[type="submit"] {
+  width: min-content;
+}
+
+.address-form input {
+  width: 450px;
+}
+
+.address-list {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.address-list div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.address-list form {
+  margin-left: 1rem;
+}

@@ -47,6 +47,28 @@ Configure your database connection:
 
 Navigate to <code>http://localhost:3000</code> in your browser.
 
+## 📸 Screenshots
+
+Below are some screenshots of the system in action:
+
+### 🏠 Home Page
+
+<img src="./views/img/154554.png">
+
+### ➕ User Registration
+
+<img src="./views/img/154444.png">
+
+### ✏️ Edit User and Addresses
+
+<img src="./views/img/154805.png">   
+<img src="./views/img/155030.png">   
+
+### 👁️ View User Details
+
+<img src="./views/img/154632.png">
+
+
 ## 📌 Routes Overview
 
 | Method | Route              | Description                   |
